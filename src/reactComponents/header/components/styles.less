@@ -1,0 +1,102 @@
+.buttonsStyles() {
+  outline: none;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  width: 140px;
+  height: 40px;
+  border-radius: 33px;
+  border: solid 1px #ffffff;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #333333;
+  }
+}
+
+.buttonsHrefsStyles() {
+  outline: none;
+  padding-right: 2em;
+  margin-right: 2em;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  display: inline;
+
+  &:hover {
+    text-decoration: underline;
+    font-weight:bold;
+  }
+}
+
+.dropdownStyles() {
+  outline: none;
+  margin-left: 5%;
+  background: none;
+  border: none;
+  color: #828282;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+
+  &__left {
+    margin-left: 10%;
+  }
+  &__right {
+    margin-left: 10%;
+  }
+
+  .buttons-left {
+    display:flex;
+    flex-direction: row;
+
+    &__menu {
+      .buttonsHrefsStyles();
+    }
+    &__forum {
+      .buttonsHrefsStyles();
+    }
+    &__contacts {
+      .buttonsHrefsStyles();
+    }
+  }
+
+  .buttons-right {
+    display:flex;
+    flex-direction: row;
+
+    &__sign-up {
+      .buttonsStyles();
+    }
+    &__login {
+      .buttonsStyles();
+    }
+    &__select {
+      .dropdownStyles();
+    }
+  }
+}

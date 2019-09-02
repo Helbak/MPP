@@ -1,0 +1,137 @@
+.crud-module {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2% auto auto;
+    width: 1226px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    font-family: Roboto;
+    display: flex;
+    
+    .element-buttons__btn-crud:hover {
+        background-image: linear-gradient(68deg, #0e5aa2, #2aa2b7 58%, #3ed5c6);
+        color: #ffffff
+    }
+    
+    td {
+        border-bottom: solid 1px #979797;
+        opacity: 0.65;
+        height: 35px;
+        width: 100px;
+        text-align: center; 
+    }
+    
+    &__header {
+        margin-left: 35px;
+        margin-right: 45px;
+        width: 1155px;
+        text-align: left;
+        border-collapse: separate;
+        border-spacing: 3px;
+        
+        th {
+            padding: 16px;
+            border-bottom: solid 1px #979797;
+            height: 40px;
+            width: 100px;
+            text-align: center;
+        }
+    }
+    
+    &__table {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-left: 1px;
+        margin-right: 28px;
+        width: 1172px;
+        height: 380px;
+        opacity: 0.54;
+        font-family: Helvetica;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.35px;
+        color: #3f3a3a;
+    }
+    
+    &__input {
+        margin-right: auto;
+        margin-left: auto;
+        
+        .element-input {
+            &__input-crud {
+                margin-bottom: 20px;
+                margin-right: auto;
+                margin-left: auto;
+                width: 1150px;
+                height: 40px;
+                opacity: 0.37;
+                border-radius: 5px;
+                border: solid 1px #979797;
+                background-color: #ebebeb;
+                font-family: Helvetica;
+                font-size: 21px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: 0.92px;
+                text-align: left;
+                text-indent: 50px;
+                color: #3f3a3a;
+            }
+            
+            &__login-inputError {
+                margin-left: 10px;
+                position: absolute;
+                margin-top: -15px;
+                width: 478px;
+                height: 4px;
+                opacity: 0.6;
+                font-size: 14px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1;
+                letter-spacing: 0.28px;
+                color: #cf1010;
+                font-family: Roboto;
+            }
+        }
+    }
+    
+    &__buttons {
+        margin-bottom: 5px;
+        margin-left: 41px;
+        margin-right: auto;
+        
+        .element-buttons {
+            &__btn-crud {
+                margin-left: auto;
+                margin-right: 6px;
+                margin-top: 6px;
+                width: 223px;
+                height: 35px;
+                border-radius: 27.5px;
+                background-color: #ffffff;
+                -webkit-border-image: -webkit-linear-gradient(169deg, #3dd2c6, #0f5da3);
+                -o-border-image: -o-linear-gradient(169deg, #3dd2c6, #0f5da3);
+                border-image: linear-gradient(259deg, #3dd2c6, #0f5da3);
+                border: solid 1px;
+                border-color: #0f5da3;
+                font-family: Roboto;
+                font-size: 12px;
+                color: #616161;
+                outline: none;
+            }
+            
+            
+        }
+    }
+}

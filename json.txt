@@ -1,0 +1,1 @@
+{"Username":"Developer","Password":"Parol1234","Email":"email@gmail.com","Phone":"+380999999999","Name":"Dima","Surname":"Maksyuta","Gender":"male","Relantionship_status":"married","Programming_languages":"C#, Java, JavaScript","Work_experience":"0-1 years"}
