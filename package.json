@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Helbak/MultiPlatformProject.git"
+    "url": "git+https://github.com/Helbak/MPP.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/Helbak/MultiPlatformProject.git",
+  "homepage": "https://github.com/Helbak/MPP.git",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
